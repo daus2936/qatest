@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-31T10:00:53Z" name="Suite" finished-at="2023-01-31T10:01:15Z" duration-ms="21311">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.LoginErrorValidation()[pri:0, instance:practice.TestsCases.ErrorValidation@422c3c7a]" name="LoginErrorValidation" class="practice.TestsCases.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:practice.TestsCases.SubmitOrderTest@2cae1042]" name="submitOrder" class="practice.TestsCases.SubmitOrderTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2023-01-31T10:00:53Z" name="Error Validation Test" finished-at="2023-01-31T10:01:09Z" duration-ms="15254">
+      <class name="practice.TestsCases.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.TestsCases.ErrorValidation@422c3c7a]" started-at="2023-01-31T10:00:53Z" name="launchApplication" finished-at="2023-01-31T10:00:59Z" duration-ms="5522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:practice.TestsCases.ErrorValidation@422c3c7a]" started-at="2023-01-31T10:00:59Z" name="LoginErrorValidation" finished-at="2023-01-31T10:01:00Z" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.TestsCases.ErrorValidation@422c3c7a]" started-at="2023-01-31T10:01:00Z" name="tearDown" finished-at="2023-01-31T10:01:00Z" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.TestsCases.ErrorValidation@422c3c7a]" started-at="2023-01-31T10:01:00Z" name="launchApplication" finished-at="2023-01-31T10:01:05Z" duration-ms="4787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:practice.TestsCases.ErrorValidation@422c3c7a]" started-at="2023-01-31T10:01:05Z" name="ProductErrorValidation" finished-at="2023-01-31T10:01:07Z" duration-ms="2701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.TestsCases.ErrorValidation@422c3c7a]" started-at="2023-01-31T10:01:07Z" name="tearDown" finished-at="2023-01-31T10:01:09Z" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practice.TestsCases.ErrorValidation -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2023-01-31T10:00:53Z" name="Submit Order Test" finished-at="2023-01-31T10:01:15Z" duration-ms="21311">
+      <class name="practice.TestsCases.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.TestsCases.SubmitOrderTest@2cae1042]" started-at="2023-01-31T10:00:54Z" name="launchApplication" finished-at="2023-01-31T10:00:58Z" duration-ms="4947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:practice.TestsCases.SubmitOrderTest@2cae1042]" started-at="2023-01-31T10:00:58Z" name="submitOrder" data-provider="getData" finished-at="2023-01-31T10:01:02Z" duration-ms="3574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Sepeda36, email=toni@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.TestsCases.SubmitOrderTest@2cae1042]" started-at="2023-01-31T10:01:02Z" name="tearDown" finished-at="2023-01-31T10:01:02Z" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.TestsCases.SubmitOrderTest@2cae1042]" started-at="2023-01-31T10:01:02Z" name="launchApplication" finished-at="2023-01-31T10:01:06Z" duration-ms="3770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:practice.TestsCases.SubmitOrderTest@2cae1042]" started-at="2023-01-31T10:01:06Z" name="submitOrder" data-provider="getData" finished-at="2023-01-31T10:01:10Z" duration-ms="3512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Sepeda36, email=roni@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.TestsCases.SubmitOrderTest@2cae1042]" started-at="2023-01-31T10:01:10Z" name="tearDown" finished-at="2023-01-31T10:01:10Z" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.TestsCases.SubmitOrderTest@2cae1042]" started-at="2023-01-31T10:01:10Z" name="launchApplication" finished-at="2023-01-31T10:01:14Z" duration-ms="3948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:practice.TestsCases.SubmitOrderTest@2cae1042]" started-at="2023-01-31T10:01:14Z" name="OrderHistoryTest" finished-at="2023-01-31T10:01:14Z" depends-on-methods="practice.TestsCases.SubmitOrderTest.submitOrder" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.TestsCases.SubmitOrderTest@2cae1042]" started-at="2023-01-31T10:01:14Z" name="tearDown" finished-at="2023-01-31T10:01:15Z" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practice.TestsCases.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
